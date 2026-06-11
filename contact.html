@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="utf-8">
+	<title>お問い合わせ｜手作りパンの店チロル</title>
+
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css">
+	<link rel="icon" href="image/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <script src="jquery-3.3.1\jquery-3.3.1.min.js"></script>
+    <script src="bootstrap-5.1.3-dist\js\bootstrap.min.js"></script>
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="wrapper">
+			<main class="global-main">
+
+				<div class="contact-area">
+					<div class="max-width-800 side-space">
+
+						<h1 class="contact-ttl">
+							<a href="index.html" class="block">
+							<img src="image/logo.svg" alt="手作りパンの店チロル" class="lazyload w100">
+							</a>
+						</h1>
+
+		<p class="contact-txt txt-c">请输入以下所有项目并按确认按钮。</p>
+
+		<div class="contact-form">
+			<form method="post" action="check.php">
+				<p class="contact-main-lead txt-c confirm-show">内容を確認し、送信ボタンを押してください。</p>
+
+				<dl class="contact-list">
+					<div class="contact-list-table table-pc">
+						<dt class="contact-list-ttl ttl01 table-cell-pc">咨询店</dt>
+
+						<dd class="contact-list-text table-cell-pc">
+
+							<input type="radio" name="category" class="contact-button" id="ogura-button" value="小倉店">
+							<label for="ogura-button" class="contact-button-txt">小仓店</label>
+
+							<input type="radio" name="category" class="contact-button" id="mukaishima-button" value="向島店">
+							<label for="mukaishima-button" class="contact-button-txt">向岛店</label>
+
+							
+						</dd>
+					</div>
+
+					<div class="contact-list-table table-pc">
+						<dt class="contact-list-ttl table-cell-pc va-top"><label for="name">姓名</label></dt>
+						<dd class="contact-list-text table-cell-pc va-top">
+							<input type="text" name="name" id="name" class="form-text" value="">
+													</dd>
+					</div>
+
+					<div class="contact-list-table table-pc">
+						<dt class="contact-list-ttl table-cell-pc va-top txt-l"><label for="mail">电子邮件地址</label></dt>
+						<dd class="contact-list-text table-cell-pc va-top">
+							<input type="email" name="mail" id="mail" class="form-text" value="">
+													</dd>
+					</div>
+
+					<div class="contact-list-table table-pc">
+						<dt class="contact-list-ttl table-cell-pc va-top txt-l"><label for="tel">电话号码</label></dt>
+						<dd class="contact-list-text table-cell-pc va-top">
+							<input type="text" name="tel" id="tel" class="form-text" value="">
+													</dd>
+					</div>
+
+					<div class="contact-list-table table-pc">
+						<dt class="contact-list-ttl table-cell-pc va-top txt-l"><label for="message">询问内容</label></dt>
+						<dd class="contact-list-text table-cell-pc va-top">
+							<textarea class="form-textarea" id="message" name="message"></textarea>
+													</dd>
+					</div>
+
+				</dl>
+
+				<div class="submit-button">
+                    <a href="thank.html" style="text-decoration:none"><button type="button" class="form-submit hv-bg">确认</button></a>
+				</div>
+				
+			</form>
+		</div>
+
+</div>
+</div>
+
+</main>
+
+
+
+<footer class="global-footer">
+<p class="copy-light font-en txt-c fs-12"><small>© Bakery Chirol.</small></p>
+</footer>
+
+</div>
+<script src="jquery-3.3.1/jquery-3.3.1.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script>window.jQuery || document.write('<script src="jquery-3.3.1/jquery-3.3.1.min.js"><\/script>');</script>
+</body>
+</html>
